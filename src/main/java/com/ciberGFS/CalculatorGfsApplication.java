@@ -1,4 +1,4 @@
-package calculatorGFS;
+package com.ciberGFS.calculatorGFS;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
