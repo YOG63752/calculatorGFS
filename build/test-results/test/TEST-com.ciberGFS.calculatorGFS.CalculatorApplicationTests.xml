@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ciberGFS.calculatorGFS.CalculatorApplicationTests" tests="3" skipped="0" failures="1" errors="0" timestamp="2026-05-12T16:14:37.361Z" hostname="UBUNTUDSK24" time="3.445">
+<testsuite name="com.ciberGFS.calculatorGFS.CalculatorApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-14T14:18:11.039Z" hostname="UBUNTUDSK24" time="6.896">
   <properties/>
-  <testcase name="testSum()" classname="com.ciberGFS.calculatorGFS.CalculatorApplicationTests" time="0.947"/>
-  <testcase name="testSumIncorrecto()" classname="com.ciberGFS.calculatorGFS.CalculatorApplicationTests" time="0.022">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;7&gt; but was: &lt;5&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;7&gt; but was: &lt;5&gt;
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:201)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:558)
-	at com.ciberGFS.calculatorGFS.CalculatorApplicationTests.testSumIncorrecto(CalculatorApplicationTests.java:20)
-</failure>
-  </testcase>
-  <testcase name="contextLoads()" classname="com.ciberGFS.calculatorGFS.CalculatorApplicationTests" time="0.005"/>
-  <system-out><![CDATA[18:14:37.613 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ciberGFS.calculatorGFS.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:14:37.751 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ciberGFS.calculatorGFS.CalculatorGfsApplication for test class com.ciberGFS.calculatorGFS.CalculatorApplicationTests
-18:14:37.872 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ciberGFS.calculatorGFS.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:14:37.877 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ciberGFS.calculatorGFS.CalculatorGfsApplication for test class com.ciberGFS.calculatorGFS.CalculatorApplicationTests
+  <testcase name="testSum()" classname="com.ciberGFS.calculatorGFS.CalculatorApplicationTests" time="1.557"/>
+  <testcase name="contextLoads()" classname="com.ciberGFS.calculatorGFS.CalculatorApplicationTests" time="0.011"/>
+  <system-out><![CDATA[16:18:11.700 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ciberGFS.calculatorGFS.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:18:12.028 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ciberGFS.calculatorGFS.CalculatorGfsApplication for test class com.ciberGFS.calculatorGFS.CalculatorApplicationTests
+16:18:12.362 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ciberGFS.calculatorGFS.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:18:12.376 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ciberGFS.calculatorGFS.CalculatorGfsApplication for test class com.ciberGFS.calculatorGFS.CalculatorApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -28,9 +17,9 @@
 
  :: Spring Boot ::                (v4.0.6)
 
-2026-05-12T18:14:38.355+02:00  INFO 13207 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 21.0.10 with PID 13207 (started by administrador in /home/administrador/calculatorGFS)
-2026-05-12T18:14:38.358+02:00  INFO 13207 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: "default"
-2026-05-12T18:14:39.800+02:00  INFO 13207 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : Started CalculatorApplicationTests in 1.83 seconds (process running for 3.669)
+2026-05-14T16:18:13.346+02:00  INFO 5955 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 21.0.10 with PID 5955 (started by administrador in /home/administrador/calculatorGFS)
+2026-05-14T16:18:13.351+02:00  INFO 5955 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-05-14T16:18:16.319+02:00  INFO 5955 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : Started CalculatorApplicationTests in 3.691 seconds (process running for 7.945)
 ]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (/home/administrador/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.8/f09415827a71be7ed621c7bd02550678f28bc81c/byte-buddy-agent-1.17.8.jar)

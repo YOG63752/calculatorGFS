@@ -17,7 +17,7 @@
 <div class="tab-container">
 <ul class="tabLinks">
 <li>
-<a class="failureGroup" href="#">Gradle Test Run :test</a>
+<a class="successGroup" href="#">Gradle Test Run :test</a>
 </li>
 </ul>
 <div class="tab">
@@ -44,13 +44,13 @@
 <tr>
 <td>
 <div class="infoBox">
-<div class="counter">3</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -62,7 +62,7 @@
 </td>
 <td>
 <div class="infoBox duration">
-<div class="counter">3.452s</div>
+<div class="counter">6.911s</div>
 <p>duration</p>
 </div>
 </td>
@@ -71,52 +71,14 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures successRate">
-<div class="percent">66%</div>
+<div class="infoBox success successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
-<div class="tab-container">
-<ul class="tabLinks">
-<li>
-<a class="" href="#">Failed</a>
-</li>
-<li>
-<a class="" href="#">All</a>
-</li>
-</ul>
-<div class="tab">
-<h2>Failed</h2>
-<table class="test-results">
-<thead>
-<tr>
-<th>Child</th>
-<th hidden="">Name</th>
-<th>Tests</th>
-<th>Failures</th>
-<th>Skipped</th>
-<th>Duration</th>
-<th>Success rate</th>
-</tr>
-</thead>
-<tr>
-<td class="failures">
-<a href="yJ8qSe6o0fY.html">testSumIncorrecto()</a>
-</td>
-<td class="path" hidden="">testSumIncorrecto()</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>0.022s</td>
-<td class="failures">0%</td>
-</tr>
-</table>
-</div>
-<div class="tab">
-<h2>All</h2>
 <table class="test-results">
 <thead>
 <tr>
@@ -135,7 +97,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.011s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -146,32 +108,19 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.947s</td>
+<td>1.557s</td>
 <td class="success">100%</td>
 </tr>
-<tr>
-<td class="failures">
-<a href="yJ8qSe6o0fY.html">testSumIncorrecto()</a>
-</td>
-<td class="path" hidden="">testSumIncorrecto()</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>0.022s</td>
-<td class="failures">0%</td>
-</tr>
 </table>
-</div>
-</div>
 </div>
 </div>
 <div class="tab">
 <h2>standard output</h2>
 <span class="code">
-<pre id="root-0-test-stdout-com.ciberGFS.calculatorGFS.CalculatorApplicationTests">18:14:37.613 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ciberGFS.calculatorGFS.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:14:37.751 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ciberGFS.calculatorGFS.CalculatorGfsApplication for test class com.ciberGFS.calculatorGFS.CalculatorApplicationTests
-18:14:37.872 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ciberGFS.calculatorGFS.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:14:37.877 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ciberGFS.calculatorGFS.CalculatorGfsApplication for test class com.ciberGFS.calculatorGFS.CalculatorApplicationTests
+<pre id="root-0-test-stdout-com.ciberGFS.calculatorGFS.CalculatorApplicationTests">16:18:11.700 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ciberGFS.calculatorGFS.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:18:12.028 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ciberGFS.calculatorGFS.CalculatorGfsApplication for test class com.ciberGFS.calculatorGFS.CalculatorApplicationTests
+16:18:12.362 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ciberGFS.calculatorGFS.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:18:12.376 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ciberGFS.calculatorGFS.CalculatorGfsApplication for test class com.ciberGFS.calculatorGFS.CalculatorApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -182,9 +131,9 @@
 
  :: Spring Boot ::                (v4.0.6)
 
-2026-05-12T18:14:38.355+02:00  INFO 13207 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 21.0.10 with PID 13207 (started by administrador in /home/administrador/calculatorGFS)
-2026-05-12T18:14:38.358+02:00  INFO 13207 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2026-05-12T18:14:39.800+02:00  INFO 13207 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : Started CalculatorApplicationTests in 1.83 seconds (process running for 3.669)
+2026-05-14T16:18:13.346+02:00  INFO 5955 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 21.0.10 with PID 5955 (started by administrador in /home/administrador/calculatorGFS)
+2026-05-14T16:18:13.351+02:00  INFO 5955 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2026-05-14T16:18:16.319+02:00  INFO 5955 --- [calculatorGFS] [    Test worker] c.c.c.CalculatorApplicationTests         : Started CalculatorApplicationTests in 3.691 seconds (process running for 7.945)
 </pre>
 <button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="root-0-test-stdout-com.ciberGFS.calculatorGFS.CalculatorApplicationTests">Copy</button>
 </span>
@@ -199,7 +148,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 9.4.1</a> at 12 may 2026, 18:14:40</p>
+<a href="https://www.gradle.org">Gradle 9.4.1</a> at 14 may 2026, 16:18:18</p>
 </div>
 </div>
 </body>
